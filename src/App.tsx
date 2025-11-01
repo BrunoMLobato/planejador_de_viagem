@@ -233,6 +233,8 @@ const apiKey = import.meta.env.VITE_API_KEY;
           <h1 className="app-title">Planejador de Viagem</h1>
           <p className="app-subtitle">
             Encontre sua rota, veja o clima e explore novas músicas para sua viagem!!
+            <br />
+            <b> Utilize "Cidade, País" para melhor precisão na busca.</b>
           </p>
         </header>
 
