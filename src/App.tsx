@@ -1,8 +1,5 @@
 import { useState, useEffect } from 'react';
-import dotenv from 'dotenv';
 import './style.css';
-
-dotenv.config();;
 
 interface Track {
   name: string;
@@ -31,9 +28,9 @@ export default function RouteMusicSpotifyApp() {
   const [spotifyToken, setSpotifyToken] = useState<string>('');
   const [showScrollTop, setShowScrollTop] = useState(false);
 
-  let clientId = process.env.clientId;
-  let clientSecret = process.env.clientSecret;
-  let apiKey = process.env.apiKey;
+const clientId = import.meta.env.VITE_CLIENT_ID;
+const clientSecret = import.meta.env.VITE_CLIENT_SECRET;
+const apiKey = import.meta.env.VITE_API_KEY;
 
   useEffect(() => {
     const handleScroll = () => {
