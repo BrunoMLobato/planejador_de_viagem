@@ -182,7 +182,7 @@ const apiKey = import.meta.env.VITE_API_KEY;
       const geojson = await routingRes.json();
 
       const routeFeature = geojson.features?.[0];
-      if (!routeFeature) throw new Error('Rota não encontrada.');
+      if (!routeFeature) throw new Error(`Rota não encontrada. Ou Não existe uma rota terrestre entre ${origin} e ${destination}.`);
 
       const routeProps = routeFeature.properties;
       setDistance(routeProps.distance / 1000);
