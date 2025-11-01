@@ -241,14 +241,14 @@ const apiKey = import.meta.env.VITE_API_KEY;
           <div className="search-form">
             <input
               type="text"
-              placeholder='Origem'
+              placeholder='Origem (CIDADE)'
               value={origin}
               onChange={e => setOrigin(e.target.value)}
               className="search-input"
             />
             <input
               type="text"
-              placeholder='Destino'
+              placeholder='Destino (CIDADE)'
               value={destination}
               onChange={e => setDestination(e.target.value)}
               className="search-input"
