@@ -269,9 +269,9 @@ export default function RouteMusicSpotifyApp() {
         
         {/* Header */}
         <header className="app-header">
-          <h1 className="app-title">Planejador de Viagem</h1>
+          <h1 className="app-title">Guia de Viagem Interativo: Rotas, Clima e Música</h1>
           <p className="app-subtitle">
-            Encontre sua rota, veja o clima e explore novas músicas para sua viagem!!
+            Encontre sua rota, veja o clima e explore novas playlists e músicas para sua viagem!!
             <br />
             <b> Utilize "Cidade, País" para melhor precisão na hora da busca. </b>
           </p>
