@@ -97,7 +97,7 @@ body {
 }
 
 .search-button:disabled {
-  background: #94a3b8;
+  background: #2563eb;
   cursor: not-allowed;
 }
 
