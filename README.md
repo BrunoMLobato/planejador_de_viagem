@@ -25,7 +25,7 @@ Aplicação web desenvolvida com **React + Vite + TypeScript** que facilita o pl
 - npm, yarn ou pnpm
 - Contas/keys das APIs utilizadas
 
-## 🔑 Configuração das APIs
+## 🔑 Configuração das APIs 🔑
 
 1. Geoapify: [https://www.geoapify.com/](https://www.geoapify.com/)
 2. OpenWeatherMap: [https://openweathermap.org/api](https://openweathermap.org/api)
@@ -34,10 +34,9 @@ Aplicação web desenvolvida com **React + Vite + TypeScript** que facilita o pl
 ## ⚙️ Variáveis de Ambiente
 
 No arquivo `.env` na raiz do projeto, adicione:
-- VITE_CLIENT_ID=seu_spotify_client_id
-- VITE_CLIENT_SECRET=seu_spotify_client_secret
-- VITE_API_KEY=sua_geoapify_key
-- VITE_OPENWEATHER_API_KEY=sua_openweather_key
+- 🔑 VITE_CLIENT_ID=seu_spotify_client_id
+- 🔑 VITE_CLIENT_SECRET=seu_spotify_client_secret
+- 🔑 VITE_API_KEY=sua_geoapify_key
 
 ## 🚀 Instalação e Execução
 - npm install
